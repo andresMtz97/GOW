@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5159612B9CCD43004F25A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B51595F2B9CCD42004F25A4 /* Localizable.strings */; };
+		8B5159672B9CD415004F25A4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5159662B9CD415004F25A4 /* StringExtension.swift */; };
 		8B5421602B9BD1E60084296C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54215F2B9BD1E60084296C /* AppDelegate.swift */; };
 		8B5421622B9BD1E60084296C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5421612B9BD1E60084296C /* SceneDelegate.swift */; };
 		8B5421672B9BD1E60084296C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5421652B9BD1E60084296C /* Main.storyboard */; };
@@ -17,10 +19,18 @@
 		8B67B32D2B9BDBCB00B005E5 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B67B32C2B9BDBCB00B005E5 /* MenuOptionCell.swift */; };
 		8BA275882B9BFA5100FABC9C /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA275872B9BFA5100FABC9C /* Weapon.swift */; };
 		8BA2758C2B9BFDED00FABC9C /* WeaponsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2758B2B9BFDED00FABC9C /* WeaponsController.swift */; };
+		8BAD8F342B9CC3FB00A51366 /* CGF Locust Resistance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD8F332B9CC3FB00A51366 /* CGF Locust Resistance.ttf */; };
+		8BD09F742B9CB678001C38AD /* WeaponsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD09F732B9CB678001C38AD /* WeaponsCell.swift */; };
+		8BD09F772B9CBCCB001C38AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD09F762B9CBCCB001C38AD /* Constants.swift */; };
 		8BF17E212B9BE95E002C474D /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF17E202B9BE95E002C474D /* GamesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B5159602B9CCD42004F25A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B5159622B9CCDCC004F25A4 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		8B5159632B9CCDCC004F25A4 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8B5159642B9CCDCC004F25A4 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B5159662B9CD415004F25A4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		8B54215C2B9BD1E60084296C /* GOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B54215F2B9BD1E60084296C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B5421612B9BD1E60084296C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +43,9 @@
 		8B67B32C2B9BDBCB00B005E5 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
 		8BA275872B9BFA5100FABC9C /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
 		8BA2758B2B9BFDED00FABC9C /* WeaponsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsController.swift; sourceTree = "<group>"; };
+		8BAD8F332B9CC3FB00A51366 /* CGF Locust Resistance.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CGF Locust Resistance.ttf"; sourceTree = "<group>"; };
+		8BD09F732B9CB678001C38AD /* WeaponsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsCell.swift; sourceTree = "<group>"; };
+		8BD09F762B9CBCCB001C38AD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8BF17E202B9BE95E002C474D /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B5159652B9CD3EA004F25A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B5159662B9CD415004F25A4 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8B5421532B9BD1E50084296C = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +87,9 @@
 		8B54215E2B9BD1E60084296C /* GOW */ = {
 			isa = PBXGroup;
 			children = (
+				8B5159652B9CD3EA004F25A4 /* Extensions */,
+				8BAD8F322B9CC3C800A51366 /* Fonts */,
+				8BD09F752B9CBC96001C38AD /* AppConstants */,
 				8B67B32B2B9BDB9400B005E5 /* View */,
 				8B67B3282B9BD7EE00B005E5 /* Model */,
 				8B5421732B9BD4230084296C /* Controller */,
@@ -75,6 +99,7 @@
 				8B5421682B9BD1F00084296C /* Assets.xcassets */,
 				8B54216A2B9BD1F00084296C /* LaunchScreen.storyboard */,
 				8B54216D2B9BD1F00084296C /* Info.plist */,
+				8B51595F2B9CCD42004F25A4 /* Localizable.strings */,
 			);
 			path = GOW;
 			sourceTree = "<group>";
@@ -102,8 +127,25 @@
 			isa = PBXGroup;
 			children = (
 				8B67B32C2B9BDBCB00B005E5 /* MenuOptionCell.swift */,
+				8BD09F732B9CB678001C38AD /* WeaponsCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8BAD8F322B9CC3C800A51366 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD8F332B9CC3FB00A51366 /* CGF Locust Resistance.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8BD09F752B9CBC96001C38AD /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				8BD09F762B9CBCCB001C38AD /* Constants.swift */,
+			);
+			path = AppConstants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +190,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 8B5421532B9BD1E50084296C;
 			productRefGroup = 8B54215D2B9BD1E60084296C /* Products */;
@@ -164,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5159612B9CCD43004F25A4 /* Localizable.strings in Resources */,
+				8BAD8F342B9CC3FB00A51366 /* CGF Locust Resistance.ttf in Resources */,
 				8B54216C2B9BD1F00084296C /* LaunchScreen.storyboard in Resources */,
 				8B5421692B9BD1F00084296C /* Assets.xcassets in Resources */,
 				8B5421672B9BD1E60084296C /* Main.storyboard in Resources */,
@@ -178,12 +223,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA2758C2B9BFDED00FABC9C /* WeaponsController.swift in Sources */,
+				8BD09F742B9CB678001C38AD /* WeaponsCell.swift in Sources */,
 				8B5421602B9BD1E60084296C /* AppDelegate.swift in Sources */,
 				8B67B32D2B9BDBCB00B005E5 /* MenuOptionCell.swift in Sources */,
 				8B67B32A2B9BD80A00B005E5 /* MenuOption.swift in Sources */,
+				8BD09F772B9CBCCB001C38AD /* Constants.swift in Sources */,
 				8BA275882B9BFA5100FABC9C /* Weapon.swift in Sources */,
 				8B5421622B9BD1E60084296C /* SceneDelegate.swift in Sources */,
 				8BF17E212B9BE95E002C474D /* GamesViewController.swift in Sources */,
+				8B5159672B9CD415004F25A4 /* StringExtension.swift in Sources */,
 				8B5421752B9BD44C0084296C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,10 +239,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8B51595F2B9CCD42004F25A4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B5159602B9CCD42004F25A4 /* Base */,
+				8B5159642B9CCDCC004F25A4 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		8B5421652B9BD1E60084296C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8B5421662B9BD1E60084296C /* Base */,
+				8B5159622B9CCDCC004F25A4 /* it */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -203,6 +261,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B54216B2B9BD1F00084296C /* Base */,
+				8B5159632B9CCDCC004F25A4 /* it */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -214,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -274,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

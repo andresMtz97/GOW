@@ -14,19 +14,19 @@ class HomeViewController: UITableViewController {
     
     let menuOptions : [MenuOption] = [
         MenuOption(
-            title:"Videogames",
+            title:"menu.option.videogames",
             image:"gamecontroller.fill",
             segue:"gamesSegue")
         , MenuOption(
-            title:"Weapons",
+            title:"menu.option.weapons",
             image:"shield.fill",
             segue:"weaponsSegue")
         , MenuOption(
-            title:"Characters",
+            title:"menu.option.characters",
             image:"person.crop.rectangle.stack.fill",
             segue:"charactersSegue")
         ,MenuOption(
-            title:"Merchandise",
+            title:"menu.option.merchandise",
             image:"shippingbox.fill",
             segue:"merchandiseSegue")
     ]
@@ -44,7 +44,9 @@ class HomeViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MenuOptionCell
-        cell.optionLabel.text = menuOptions[indexPath.row].title
+//        cell.optionLabel.text = NSLocalizedString(menuOptions[indexPath.row].title, comment: "")
+//        cell.optionLabel.text = menuOptions[indexPath.row].title.localized
+        cell.optionLabel.text = menuOptions[indexPath.row].title.localized(WithComment: "")
         cell.optionImage.image = UIImage(systemName: menuOptions[indexPath.row].image)
         
         return cell

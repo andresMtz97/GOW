@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "AM0-Q0-T7i"; */
+"AM0-Q0-T7i.text" = "Nombre";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Agz-zP-BBJ"; */
+"Agz-zP-BBJ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CIw-hS-lOd"; */
+"CIw-hS-lOd.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EQh-uM-0vF"; */
+"EQh-uM-0vF.text" = "Label";
+
+/* Class = "UILabel"; text = "Descripciòn"; ObjectID = "GNa-vT-qFx"; */
+"GNa-vT-qFx.text" = "Descripciòn";
+
+/* Class = "UILabel"; text = "Nombre"; ObjectID = "Nbv-FL-hZC"; */
+"Nbv-FL-hZC.text" = "Nombre";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ohh-Sv-yQo"; */
+"Ohh-Sv-yQo.text" = "Label";
+
+/* Class = "UILabel"; text = "Descripciòn"; ObjectID = "Tjv-n0-vFX"; */
+"Tjv-n0-vFX.text" = "Descripciòn";
+
+/* Class = "UITabBarItem"; title = "CGO"; ObjectID = "VV7-QX-fh8"; */
+"VV7-QX-fh8.title" = "CGO";
+
+/* Class = "UILabel"; text = "CGO"; ObjectID = "VY2-gW-I36"; */
+"VY2-gW-I36.text" = "CGO";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zvl-zn-0Sg"; */
+"Zvl-zn-0Sg.text" = "Label";
+
+/* Class = "UILabel"; text = "Locust"; ObjectID = "f32-qX-R2p"; */
+"f32-qX-R2p.text" = "Locust";
+
+/* Class = "UITabBarItem"; title = "Locust"; ObjectID = "mXq-eh-mQ4"; */
+"mXq-eh-mQ4.title" = "Locust";
