@@ -39,7 +39,7 @@ class GamesViewController: UIViewController {
         }
         gamePosterPageControl.setCurrentPageIndicatorImage(
             UIImage(named: "gow_logo")?
-                .preparingThumbnail(of: CGSize(width: 25, height: 25)),
+                .preparingThumbnail(of: CGSize(width: 22, height: 22)),
             forPage: gamePosterPageControl.currentPage)
     }
     
