@@ -8,21 +8,50 @@
 import UIKit
 
 class HomeViewController: UITableViewController {
+    
+    @IBOutlet var menuTableView: UITableView!
+    
+    
+    let menuOptions : [MenuOption] = [
+        MenuOption(
+            title:"Videogames",
+            image:"gamecontroller.fill",
+            segue:"gamesSegue")
+        , MenuOption(
+            title:"Weapons",
+            image:"shield.fill",
+            segue:"weaponsSegue")
+        , MenuOption(
+            title:"Characters",
+            image:"person.crop.rectangle.stack.fill",
+            segue:"charactersSegue")
+        ,MenuOption(
+            title:"Merchandise",
+            image:"shippingbox.fill",
+            segue:"merchandiseSegue")
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return menuOptions.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MenuOptionCell
+        cell.optionLabel.text = menuOptions[indexPath.row].title
+        cell.optionImage.image = UIImage(systemName: menuOptions[indexPath.row].image)
+        
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: menuOptions[indexPath.row].segue, sender: self)
     }
 
     /*
