@@ -75,6 +75,8 @@ class WeaponsController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        weaponsTable.backgroundColor = UIColor(named: "GOWBlack1")
+        
         weaponsTable.delegate = self
         weaponsTable.dataSource = self
         

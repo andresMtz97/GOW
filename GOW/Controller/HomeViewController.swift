@@ -33,6 +33,7 @@ class HomeViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        menuTableView.backgroundColor = UIColor(named: "GOWBlack1")
     }
 
     // MARK: - Table view data source
