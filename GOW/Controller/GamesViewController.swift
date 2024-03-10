@@ -24,6 +24,11 @@ class GamesViewController: UIViewController {
         gamePosterImage.image = UIImage(named: "\(gamePosters.first!)")
 //        gamePosterPageControl.setCurrentPageIndicatorImage(UIImage(named: "gow_logo"), forPage: gamePosterPageControl.currentPage)
         gamePosterPageControl.currentPageIndicatorTintColor = UIColor(named: "GOWRed")
+        gamePosterPageControl.setCurrentPageIndicatorImage(
+            UIImage(named: "gow_logo")?
+                .preparingThumbnail(of: CGSize(width: 25, height: 25)),
+            forPage: gamePosterPageControl.currentPage
+        )
     }
     
     
@@ -39,7 +44,22 @@ class GamesViewController: UIViewController {
         }
         gamePosterPageControl.setCurrentPageIndicatorImage(
             UIImage(named: "gow_logo")?
-                .preparingThumbnail(of: CGSize(width: 22, height: 22)),
+                .preparingThumbnail(of: CGSize(width: 25, height: 25)),
+            forPage: gamePosterPageControl.currentPage)
+    }
+    
+    
+    @IBAction func rightSwipe(_ sender: UISwipeGestureRecognizer) {
+        print("Right swipe")
+        if gamePosterPageControl.currentPage == 0 {
+            gamePosterPageControl.currentPage = gamePosters.count - 1
+        } else {
+            gamePosterPageControl.currentPage = gamePosterPageControl.currentPage - 1
+        }
+        gamePosterImage.image = UIImage(named: String(gamePosters[gamePosterPageControl.currentPage]))
+        gamePosterPageControl.setCurrentPageIndicatorImage(
+            UIImage(named: "gow_logo")?
+                .preparingThumbnail(of: CGSize(width: 25, height: 25)),
             forPage: gamePosterPageControl.currentPage)
     }
     
