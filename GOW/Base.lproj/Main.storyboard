@@ -98,6 +98,7 @@
                             </imageView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="gap-oH-FIB">
                                 <rect key="frame" x="138.66666666666666" y="752" width="116" height="26"/>
+                                <color key="tintColor" name="AccentColor"/>
                             </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mDq-pv-tSz"/>
@@ -142,8 +143,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwG-xV-T0E">
                                 <rect key="frame" x="0.0" y="103" width="393" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CGO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VY2-gW-I36">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CGO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VY2-gW-I36">
+                                        <rect key="frame" x="-1" y="0.0" width="393" height="40"/>
+                                        <color key="backgroundColor" name="GOWBlack1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Ecg-dn-WYH"/>
                                             <constraint firstAttribute="height" constant="40" id="uZG-yP-lpu"/>
@@ -187,7 +189,7 @@
                                                         <constraint firstAttribute="height" constant="40" id="J1y-gC-cAp"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" name="GOWText"/>
+                                                    <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mark1LancerAssaultRifle" translatesAutoresizingMaskIntoConstraints="NO" id="Og0-3c-bbp">
@@ -297,10 +299,10 @@
             </objects>
             <point key="canvasLocation" x="3475.5725190839694" y="661.97183098591552"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation View Controller-->
         <scene sceneID="U61-dO-KqG">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vqA-YP-Bih" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vqA-YP-Bih" customClass="NavigationViewController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jFn-Fu-f0X">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -394,7 +396,7 @@
                                                         <constraint firstAttribute="height" constant="40" id="9DI-93-iY3"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" name="GOWText"/>
+                                                    <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mark1LancerAssaultRifle" translatesAutoresizingMaskIntoConstraints="NO" id="bnI-RC-TtZ">
@@ -513,6 +515,9 @@
         <image name="gearshape.fill" catalog="system" width="128" height="123"/>
         <image name="headerGOW" width="393" height="346"/>
         <image name="headerLocus" width="1512" height="712"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="GOWBlack1">
             <color red="0.059000000357627869" green="0.030999999493360519" blue="0.039000000804662704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
