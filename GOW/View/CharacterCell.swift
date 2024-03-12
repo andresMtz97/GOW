@@ -1,18 +1,17 @@
 //
-//  WeaponsCell.swift
+//  CharacterCell.swift
 //  GOW
 //
-//  Created by Developer on 09/03/24.
+//  Created by Developer on 11/03/24.
 //
 
 import UIKit
 
-class WeaponsCell: UITableViewCell {
+class CharacterCell: UITableViewCell {
     
-
-    @IBOutlet weak var weaponName: UILabel!
-    @IBOutlet weak var weaponImage: UIImageView!
-    @IBOutlet weak var weaponDescription: UILabel!
+    @IBOutlet weak var characterImage: UIImageView!
+    @IBOutlet weak var characterName: UILabel!
+    @IBOutlet weak var characterDescription: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

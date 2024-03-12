@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vqA-YP-Bih">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vqA-YP-Bih">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -74,6 +73,7 @@
                         <outlet property="menuTableView" destination="MaJ-1i-L65" id="Vxa-vd-XH7"/>
                         <segue destination="IrW-E8-8ky" kind="show" identifier="gamesSegue" id="W4w-37-EIm"/>
                         <segue destination="hbO-Fq-vAI" kind="show" identifier="weaponsSegue" id="9hm-BN-W7f"/>
+                        <segue destination="iTF-bg-U5h" kind="show" identifier="charactersSegue" id="XIa-su-luA"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYU-CG-b6B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -130,7 +130,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2550.3816793893129" y="-76.056338028169023"/>
+            <point key="canvasLocation" x="2740" y="-702"/>
         </scene>
         <!--CGO-->
         <scene sceneID="Xiq-qM-Th9">
@@ -143,14 +143,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SwG-xV-T0E">
                                 <rect key="frame" x="0.0" y="103" width="393" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CGO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VY2-gW-I36">
-                                        <rect key="frame" x="-1" y="0.0" width="393" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CGO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VY2-gW-I36">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="40"/>
                                         <color key="backgroundColor" name="GOWBlack1"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Ecg-dn-WYH"/>
                                             <constraint firstAttribute="height" constant="40" id="uZG-yP-lpu"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
                                         <color key="textColor" name="GOWRed"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -160,14 +159,14 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="v7h-NG-Yce" secondAttribute="bottom" id="0U1-4n-F6j"/>
-                                    <constraint firstAttribute="trailing" secondItem="v7h-NG-Yce" secondAttribute="trailing" id="3WH-lF-hVN"/>
+                                    <constraint firstItem="v7h-NG-Yce" firstAttribute="leading" secondItem="SwG-xV-T0E" secondAttribute="leading" id="4Zi-Vo-AyV"/>
                                     <constraint firstAttribute="height" constant="200" id="B0b-4x-eRv"/>
-                                    <constraint firstItem="v7h-NG-Yce" firstAttribute="leading" secondItem="SwG-xV-T0E" secondAttribute="leading" id="Cqi-2H-x5U"/>
+                                    <constraint firstItem="VY2-gW-I36" firstAttribute="leading" secondItem="SwG-xV-T0E" secondAttribute="leading" id="J4g-w5-u3S"/>
                                     <constraint firstItem="VY2-gW-I36" firstAttribute="top" secondItem="SwG-xV-T0E" secondAttribute="top" id="Q9q-DC-6yl"/>
                                     <constraint firstAttribute="trailing" secondItem="VY2-gW-I36" secondAttribute="trailing" id="aY4-n4-afI"/>
-                                    <constraint firstItem="v7h-NG-Yce" firstAttribute="top" secondItem="VY2-gW-I36" secondAttribute="bottom" id="tZN-9l-srM"/>
-                                    <constraint firstItem="VY2-gW-I36" firstAttribute="leading" secondItem="SwG-xV-T0E" secondAttribute="leading" id="zDv-3D-06C"/>
+                                    <constraint firstItem="v7h-NG-Yce" firstAttribute="top" secondItem="VY2-gW-I36" secondAttribute="bottom" id="bb8-cU-Tkb"/>
+                                    <constraint firstAttribute="bottom" secondItem="v7h-NG-Yce" secondAttribute="bottom" id="fx5-XZ-Ica"/>
+                                    <constraint firstAttribute="trailing" secondItem="v7h-NG-Yce" secondAttribute="trailing" id="j50-sa-Wq2"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="OER-nV-IKp">
@@ -188,7 +187,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="J1y-gC-cAp"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
                                                     <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -297,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvY-pu-bAl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3475.5725190839694" y="661.97183098591552"/>
+            <point key="canvasLocation" x="4062" y="-163"/>
         </scene>
         <!--Navigation View Controller-->
         <scene sceneID="U61-dO-KqG">
@@ -316,6 +315,206 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSs-kl-zsR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="696.94656488549617" y="-76.056338028169023"/>
+        </scene>
+        <!--COG-->
+        <scene sceneID="a1L-0y-jae">
+            <objects>
+                <viewController id="zm2-Ed-iRJ" customClass="CharactersViewController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HB7-l9-RP7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vn-LO-Amj">
+                                <rect key="frame" x="0.0" y="103" width="393" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="W2c-dG-6bS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="ZyX-sN-3wK"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="xBg-Id-Vjo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="30"/>
+                                <color key="textColor" name="GOWRed"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="QIV-mQ-fOo">
+                                <rect key="frame" x="0.0" y="153" width="393" height="616"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexColor" name="GOWText"/>
+                                <color key="sectionIndexBackgroundColor" name="GOWBlack1"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="250" id="91e-oE-bm9" customClass="CharacterCell" customModule="GOW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="250"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="91e-oE-bm9" id="rHb-wL-42P">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AdamFenix" translatesAutoresizingMaskIntoConstraints="NO" id="2Om-Ib-yAA">
+                                                    <rect key="frame" x="20" y="51" width="125" height="188"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="190" id="cq4-KU-dGv"/>
+                                                        <constraint firstAttribute="width" constant="125" id="tYR-hr-Oft"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marcus Fenix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-xW-bvG">
+                                                    <rect key="frame" x="20" y="11" width="353" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="EGx-8u-iAE"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
+                                                    <color key="textColor" name="GOWRed"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripciòn" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8q4-yP-Arc">
+                                                    <rect key="frame" x="145" y="51" width="228" height="188"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" name="GOWText"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8q4-yP-Arc" firstAttribute="leading" secondItem="2Om-Ib-yAA" secondAttribute="trailing" id="3IP-JH-pvc"/>
+                                                <constraint firstItem="1LJ-xW-bvG" firstAttribute="leading" secondItem="rHb-wL-42P" secondAttribute="leadingMargin" id="KhA-cC-ggv"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="8q4-yP-Arc" secondAttribute="trailing" id="LRc-Yy-jo3"/>
+                                                <constraint firstItem="2Om-Ib-yAA" firstAttribute="leading" secondItem="rHb-wL-42P" secondAttribute="leadingMargin" id="TLr-by-Fvj"/>
+                                                <constraint firstItem="1LJ-xW-bvG" firstAttribute="top" secondItem="rHb-wL-42P" secondAttribute="topMargin" id="WCz-CK-N0D"/>
+                                                <constraint firstItem="2Om-Ib-yAA" firstAttribute="top" secondItem="1LJ-xW-bvG" secondAttribute="bottom" id="doy-gv-vYk"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="1LJ-xW-bvG" secondAttribute="trailing" id="fHg-lS-Ie3"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="8q4-yP-Arc" secondAttribute="bottom" id="hxO-MQ-EAs"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="2Om-Ib-yAA" secondAttribute="bottom" id="j58-qe-Ii4"/>
+                                                <constraint firstItem="8q4-yP-Arc" firstAttribute="top" secondItem="1LJ-xW-bvG" secondAttribute="bottom" id="ufT-zT-OKE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="GOWBlack1"/>
+                                        <connections>
+                                            <outlet property="characterDescription" destination="8q4-yP-Arc" id="TPw-gN-FCZ"/>
+                                            <outlet property="characterImage" destination="2Om-Ib-yAA" id="xDn-qH-Arg"/>
+                                            <outlet property="characterName" destination="1LJ-xW-bvG" id="iY0-NH-0Zo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7ux-g9-NRc"/>
+                        <color key="backgroundColor" name="GOWBlack1"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7vn-LO-Amj" secondAttribute="trailing" id="1gu-xg-HIa"/>
+                            <constraint firstItem="7ux-g9-NRc" firstAttribute="trailing" secondItem="QIV-mQ-fOo" secondAttribute="trailing" id="5MM-bg-SPz"/>
+                            <constraint firstItem="QIV-mQ-fOo" firstAttribute="leading" secondItem="7ux-g9-NRc" secondAttribute="leading" id="N41-RZ-RYl"/>
+                            <constraint firstItem="7ux-g9-NRc" firstAttribute="bottom" secondItem="QIV-mQ-fOo" secondAttribute="bottom" id="PKV-xD-OYi"/>
+                            <constraint firstItem="7vn-LO-Amj" firstAttribute="top" secondItem="7ux-g9-NRc" secondAttribute="top" id="RSu-P7-00E"/>
+                            <constraint firstItem="7vn-LO-Amj" firstAttribute="leading" secondItem="7ux-g9-NRc" secondAttribute="leading" id="kSp-Su-2U0"/>
+                            <constraint firstItem="QIV-mQ-fOo" firstAttribute="top" secondItem="7vn-LO-Amj" secondAttribute="bottom" id="ndq-p0-PBJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="COG" image="gearshape.fill" catalog="system" id="FAh-H4-O9W">
+                        <color key="badgeColor" name="GOWBlack1"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="00v-QZ-e6a"/>
+                    <connections>
+                        <outlet property="charactersTable" destination="QIV-mQ-fOo" id="HPw-q9-yCo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wv1-Hr-cfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1038.9312977099237" y="1460.5633802816901"/>
+        </scene>
+        <!--Locust-->
+        <scene sceneID="dbP-65-lKC">
+            <objects>
+                <viewController id="frS-ww-6x8" customClass="CharactersViewController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xkx-XQ-Ndk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="T9o-Sw-kHc">
+                                <rect key="frame" x="0.0" y="153" width="393" height="616"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="250" id="ChD-xC-ub7" customClass="CharacterCell" customModule="GOW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="250"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ChD-xC-ub7" id="jHd-Yz-WmT">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AdamFenix" translatesAutoresizingMaskIntoConstraints="NO" id="hyI-4I-sUF">
+                                                    <rect key="frame" x="20" y="51" width="125" height="188"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="190" id="2uC-Nl-pu8"/>
+                                                        <constraint firstAttribute="width" constant="125" id="Rl6-nm-dd4"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marcus Fenix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbW-h9-bf8">
+                                                    <rect key="frame" x="20" y="11" width="353" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="jdD-PQ-kwp"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
+                                                    <color key="textColor" name="GOWRed"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripciòn" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fan-KH-ff1">
+                                                    <rect key="frame" x="145" y="51" width="228" height="188"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" name="GOWText"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="tbW-h9-bf8" firstAttribute="top" secondItem="jHd-Yz-WmT" secondAttribute="topMargin" id="12s-Me-h5b"/>
+                                                <constraint firstItem="fan-KH-ff1" firstAttribute="leading" secondItem="hyI-4I-sUF" secondAttribute="trailing" id="8Xl-jB-wfT"/>
+                                                <constraint firstItem="tbW-h9-bf8" firstAttribute="leading" secondItem="jHd-Yz-WmT" secondAttribute="leadingMargin" id="FxS-ZF-jZA"/>
+                                                <constraint firstItem="hyI-4I-sUF" firstAttribute="leading" secondItem="jHd-Yz-WmT" secondAttribute="leadingMargin" id="LQ2-ws-6Pk"/>
+                                                <constraint firstItem="hyI-4I-sUF" firstAttribute="top" secondItem="tbW-h9-bf8" secondAttribute="bottom" id="NTE-UM-aoO"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="fan-KH-ff1" secondAttribute="trailing" id="Nur-jT-2O2"/>
+                                                <constraint firstItem="fan-KH-ff1" firstAttribute="top" secondItem="tbW-h9-bf8" secondAttribute="bottom" id="RsP-68-5uc"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="fan-KH-ff1" secondAttribute="bottom" id="UxZ-sb-WOs"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="hyI-4I-sUF" secondAttribute="bottom" id="XMm-x9-G6X"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="tbW-h9-bf8" secondAttribute="trailing" id="xah-Xf-1C7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="GOWBlack1"/>
+                                        <connections>
+                                            <outlet property="characterDescription" destination="fan-KH-ff1" id="uzz-iS-Msz"/>
+                                            <outlet property="characterImage" destination="hyI-4I-sUF" id="p5m-em-9SW"/>
+                                            <outlet property="characterName" destination="tbW-h9-bf8" id="jXK-zp-DAP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locust" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2m-Ko-ZOs">
+                                <rect key="frame" x="0.0" y="103" width="393" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="s02-JU-n1u"/>
+                                    <constraint firstAttribute="height" constant="50" id="s5l-dl-k5v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="30"/>
+                                <color key="textColor" name="GOWRed"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oMv-0q-jEc"/>
+                        <color key="backgroundColor" name="GOWBlack1"/>
+                        <constraints>
+                            <constraint firstItem="T9o-Sw-kHc" firstAttribute="leading" secondItem="oMv-0q-jEc" secondAttribute="leading" id="BHo-5G-ona"/>
+                            <constraint firstAttribute="trailing" secondItem="s2m-Ko-ZOs" secondAttribute="trailing" id="GIo-gF-t0f"/>
+                            <constraint firstItem="T9o-Sw-kHc" firstAttribute="top" secondItem="s2m-Ko-ZOs" secondAttribute="bottom" id="RqO-bN-TSv"/>
+                            <constraint firstItem="oMv-0q-jEc" firstAttribute="trailing" secondItem="T9o-Sw-kHc" secondAttribute="trailing" id="bQf-xE-Qup"/>
+                            <constraint firstItem="s2m-Ko-ZOs" firstAttribute="top" secondItem="oMv-0q-jEc" secondAttribute="top" id="hFY-KQ-aKf"/>
+                            <constraint firstItem="s2m-Ko-ZOs" firstAttribute="leading" secondItem="oMv-0q-jEc" secondAttribute="leading" id="pKk-sF-aSp"/>
+                            <constraint firstItem="oMv-0q-jEc" firstAttribute="bottom" secondItem="T9o-Sw-kHc" secondAttribute="bottom" id="t54-5f-idC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="Locust" image="circle.grid.cross.fill" catalog="system" id="ZrZ-pi-AeU">
+                        <color key="badgeColor" name="GOWBlack1"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="charactersTable" destination="T9o-Sw-kHc" id="uhl-zc-1PG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zqh-Gh-0LG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2264.8854961832062" y="1460.5633802816901"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="aKr-wr-Zdi">
@@ -337,7 +536,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3xv-bF-wcP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2548.8549618320608" y="661.97183098591552"/>
+            <point key="canvasLocation" x="2882" y="273"/>
         </scene>
         <!--Locust-->
         <scene sceneID="kLx-p7-S8B">
@@ -357,7 +556,7 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="3m8-kb-P8Y"/>
                                             <constraint firstAttribute="height" constant="40" id="waK-aJ-Snd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
                                         <color key="textColor" name="GOWRed"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -395,7 +594,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="9DI-93-iY3"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
                                                     <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -506,10 +705,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ojl-VM-bMm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2552" y="1535"/>
+            <point key="canvasLocation" x="4062" y="730"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="WKw-mR-Did">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iTF-bg-U5h" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Mw2-wa-1wG"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lvl-52-iAD">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="GOWBlack1"/>
+                        <color key="barTintColor" name="GOWText"/>
+                        <color key="selectedImageTintColor" name="GOWRed"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zm2-Ed-iRJ" kind="relationship" relationship="viewControllers" id="8EK-tO-nJH"/>
+                        <segue destination="frS-ww-6x8" kind="relationship" relationship="viewControllers" id="8bM-eV-zHa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SzK-Yx-tZj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1623.6641221374045" y="730.28169014084506"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AdamFenix" width="650" height="1024"/>
         <image name="Mark1LancerAssaultRifle" width="1024" height="512"/>
         <image name="circle.grid.cross.fill" catalog="system" width="128" height="128"/>
         <image name="gearshape.fill" catalog="system" width="128" height="123"/>

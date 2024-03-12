@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  GOW
+
+  Created by Developer on 09/03/24.
+  
+*/
+
+/* MENU*/
+"menu.option.videogames" = "Juegos";
+"menu.option.weapons" = "Armas";
+"menu.option.characters" = "Personajes";
+"menu.option.merchandise" = "Mercancia";
+
+/* WEAPONS */
+"weapon.name.boomshot" = "Boomshot Grenade Launcher";
+"weapon.description.boomshot" = "Era un lanzagranadas de acción de bombeo de un solo disparo diseñado y utilizado principalmente por los Locust, específicamente el Boomer.";
+"weapon.name.hammerburstii" = "Hammerburst II";
+"weapon.description.hammerburstii" = "Era el rifle de asalto de alta potencia estándar Locust. A menudo se lo conoce como la contraparte Locust del rifle de asalto COG Lancer.";
+"weapon.name.mulcher" = "Mulcher";
+"weapon.description.mulcher" = "La Mulcher es una pesada pistola Gatling giratoria de manivela desarrollada por la Coalición de Gobiernos Ordenados.";
+"weapon.name.bolo_grenade" = "Granada de bolo";
+"weapon.description.bolo_grenade" = "La Granada Bolo, también conocida como Granada de Fragmentación, era la granada de fragmentación estándar utilizada por la Coalición de Gobiernos Ordenados, la Horda Locust y el Enjambre.";
+"weapon.name.boltok" = "Pistola Boltok";
+"weapon.description.boltok" = "Era el arma estándar de los Locust, específicamente los Drones. La pistola continúa la filosofía de diseño de armas Locust de crear armas con énfasis en la fuerza bruta.";
+"weapon.name.lancer" = "Rifle de asalto Lancer Mark 1";
+"weapon.description.lancer" = "Apodado Retro Lancer durante la pandemia de Lambent, fue el predecesor del rifle de asalto Mark 2 Lancer. Anteriormente el rifle de asalto principal del Ejército de la Coalición de Gobiernos Ordenados, el rifle de asalto Mark 1 se utilizó durante la Guerra del Péndulo.";
+"weapon.name.lancer2" = "Rifle de asalto Mark 2 Lancer";
+"weapon.description.lancer2" = "Una actualización del rifle de asalto Mark 1 Lancer, producido con una bayoneta de motosierra, mayor precisión, menor retroceso y mayor capacidad de transporte de municiones, pero menos potencia de fuego en comparación con su predecesor.";
+"weapon.name.sniper" = "Rifle de francotirador de tiro largo";
+"weapon.description.sniper" = "Era un rifle de francotirador de cerrojo, de un solo tiro y de alto calibre. Creado por la Coalición de Gobiernos Ordenados durante las Guerras del Péndulo, el Longshot se utilizó incluso diecisiete años después del Día de la Emergencia.";
+"weapon.name.hammer_of_dawn" = "Martillo del Alba";
+"weapon.description.hammer_of_dawn" = "El Martillo del Alba era un láser orbital basado en satélites, energizado por Imulsión COG. Sus componentes clave fueron inventados por el científico de la UIR Mauris Ivo y completados por el profesor Adam Fenix ​​después de que fuera robado durante la Operación: Nivelador.";
+"weapon.name.mx8" = "Pistola de Cañón Corto MX8";
+"weapon.description.mx8" = "Era el arma estándar para el personal de las fuerzas armadas de la Coalición de Gobiernos Ordenados.";
+
+/* CHARACTERS */
+"character.description.adam_fenix" = "El profesor y mayor Adam Jonathon Fenix ​​​​fue un ex Gear y profesor de la Universidad de La Croix. Era el esposo del doctor Elain Fenix ​​​​y el padre del legendario héroe de guerra Marcus Fenix. Luchó en las Guerras del Péndulo, pero aceptó un puesto de diseño de armas para intentar terminar la guerra rápidamente.";
+"character.description.alicia_valera" = "Alicia Valera, también llamada \"Val\" por sus compañeros de pelotón, era una Gear de la Coalición de Gobiernos Ordenados, asignada al Pelotón Zeta. Fue miembro de Zeta-Six durante la Evacuación de Ilima. Ella fue asesinada por RAAM tratando de salvar a Jace Stratton durante la evacuación.";
+"character.description.anthony_carmine" = "El soldado Anthony Carmine era hermano de Benjamin Carmine y Clayton Carmine. Anthony, el miembro más joven de Delta-One, compensa su falta de experiencia con un entusiasmo desenfrenado y un verdadero respeto por los veteranos de guerra como Marcus y Dom.";
+"character.description.anya_stroud" = "La teniente Anya Stroud era una oficial de Army Gear de la COG y la única hija de la comandante Helena Stroud. Se unió al ejército de la COG para seguir los pasos de su madre, pero a diferencia de ella, Anya se convirtió en oficial de comunicaciones de la CIC. Participó en las Guerras del Péndulo, la Guerra Locust y finalmente en la Pandemia Lambent, sólo durante la Pandemia se convirtió en Frontline Gear.";
+"character.description.cole" = "Augustus \"The Train\" Cole, un soldado especialista de las Fuerzas Armadas de la COG, era un exitoso jugador de Thrashball conocido por su estilo extravagante y contundente. Después del Día de la Emergencia, Cole se unió al Ejército de la COG como un Gear donde es conocido por su carácter encantador.";
+"character.description.benjamin_carmine" = "Un soldado de las Fuerzas Armadas de la COG, era un Gear que sirvió a la Coalición durante la Guerra Locust. Llamado Carmine por su equipo y \"Mequetrefe\" por sus hermanos, era hermano de Anthony y Clayton Carmine, y un Gear como ellos. Se unió al Escuadrón Delta, tal como lo había hecho Anthony.";
+"character.description.bernie" = "Sargento Bernadette \"Bernie\" Mataki es un soldado de la COG. Experta en el uso de Rifles de Francotirador y con mucha experiencia en combate debido a su avanzada edad. Durante un tiempo fue instructora militar para los comandos de la COG. También luchó en varias batallas de gran importancia dentro de las tres guerras libradas por la COG y es ampliamente conocida entre la infantería.";
+"character.description.prescott" = "Richard Prescott fue un político, hijo de David Prescott, que destacó por ser el líder de la COG durante sus últimos años de existencia, además de ser un hombre fuertemente nacionalista. Líder absoluto de la Gears durante la Guerra Locust, murió durante la Pandemia Lambent.";
+"character.description.clayton_carmine" = "Clayton \"Clay\" Carmine, Gear de la Coalición de Fuerzas Armadas de Gobiernos Ordenados. Uno de los cuatro hermanos Carmine. Es el mayor de los hermanos Carmine y un Gear experimentado y veterano. Desafortunadamente, también es uno de los dos miembros supervivientes de la familia Carmine. Un soldado durante la Guerra Locust y luchó junto a Delta durante la pandemia Lambent.";
+"character.description.hoffman" = "El coronel Victor Hoffman es un soldado inteligente y pragmático y un oficial Gear condecorado de alto rango. Hoffman es un guerrero nato, que asciende desde las filas para ganar una comisión y se hace un nombre como el nuevo teniente de empuje al mando en el asedio de Anvil Gate.";
+"character.description.baird" = "El cabo Damon S. Baird, anteriormente teniente, fue un soldado Gear, un genio en varios campos técnicos, mecánicos y científicos. Es un experto en recolectar, analizar y descifrar tanto armas Locust como otras tipos de equipos, artefactos y documentos. También se destaca por ser un gran ingeniero, creando diferentes artefactos y reparando maquinaria COG avanzada.";
+"character.description.dizzy" = "Dizzy Wallin es un ex superviviente que no tiene motivos para amar a la COG, ya que fue uno de los millones que murieron cuando Prescott utilizó el Martillo del Alba como soldado reacio.";
+"character.description.dom" = "Dominic \"Dom\" Santiago, Soldado Comando de las Fuerzas Armadas de la COG. Era un guerrero duro que poseía una actitud positiva incluso en los peores momentos. Liberó a su mejor amigo, Marcus Fenix, de la Prisión de Máxima Seguridad de Jacinto y lo reclutó para el Escuadrón Delta. Después de perder todo por lo que luchó, Dom se volvió muy descuidado, participó durante la Pandemia Lambent y se sacrificó para salvar a Delta en la Misión a la Misericordia.";
+"character.description.ezra_loomis" = "Ezra Pound Loomis era un oficial Gear en el ejército de la COG y miembro de la Guardia Onyx. Era conocido por ser un individuo que seguía las reglas, pero tuvo una carrera larga y exitosa durante las Guerras del Péndulo. . Acusó al pelotón Kilo de traición durante una batalla en Halvo Bay después de que desobedecieron sus órdenes y usaron el misil Light Mass contra el general Karn.";
+"character.description.paduk" = "Garron Paduk es el líder de los Vasgar Wanderers. Durante las Guerras del Péndulo, sirvió como Mayor de Infantería de la UIR en su tierra natal de Gorasnaya. Después del asalto Locust a Gorasnaya, Paduk y Algunos de sus compatriotas fueron rescatados por las fuerzas navales de la COG y se unió a ellos para vengarse de la Horda Locust, pero también como un medio para escapar de la prisión. A través del Programa Open Arms, Paduk fue asignado al Pelotón Kilo de la COG con el rango de Soldado.";
+"character.description.jace" = "El cabo Jayson \"Jace\" Stratton fue uno de los supervivientes del Día de Emergencia y un soldado Gear en el Ejército de la Coalición de Gobiernos Ordenados. Sirvió en Delta-One y Midnight Squadron, y más tarde se convirtió en el comandante de Alpha-Seven durante la Operación: Tormenta Hueca.";
+"character.description.jd_fenix" = "James Dominic Fenix, comúnmente conocido con el sobrenombre de JD, es un ex teniente de la COG e hijo del legendario veterano de guerra Marcus Michael Fenix ​​​​y la ex teniente de la COG Anya Stroud.";
+"character.description.kait_diaz" = "Kait Díaz es una joven Forastera que nació y creció fuera de las ciudades amuralladas que protegen a gran parte de la humanidad. Kait es la coprotagonista de Gears of War 4 y la protagonista de Gears 5.";
+"character.description.minh_young_kim" = "El teniente Minh Young Kim era parte de las Fuerzas Armadas de la COG. Un oficial Gear que sirvió durante la Guerra Locust, sobre todo durante la Ofensiva Lightmass. Kim dirigió la misión de rescatar a Marcus Fenix  del penal de máxima seguridad de Jacinto a pesar de sus reservas sobre un hombre al que considera un desertor. Pero fue asesinado pocas horas después por el general RAAM.";
+"character.description.marcus_fenix" = "Marcus Michael Fenix, Sargento del Ejército de la COG, protagonista y personaje principal de la primera saga del universo Gears of War. Conocido soldado durante las Guerras del Péndulo, obtuvo la Estrella Embry, la más alta condecoración de todas, por sus grandes hazañas en la Batalla de los Campos de Aspho. Como el resto de la humanidad, todo cambió para él después del Día de la Emergencia.";
+"character.description.barrick" = "El cabo Michael Barrick fue un ex superviviente que se alistó en el Ejército COG usando la Operación: Salvavidas, convirtiéndose en un soldado Gear. Fue miembro de Zeta-Six durante la Evacuación de Ilima.";
+"character.description.sam" = "Samantha \"Sam\" Byrne, es una Gear que luchó junto a Delta-One durante la Pandemia Lambent, cuando la Coalición de Gobiernos Ordenados colapsó y se vio obligada a abandonar Vectes.";
+"character.description.sofia_hendrick" = "Sofia Hendrick era una COG Army Gear, que formaba parte del Escuadrón Kilo. Era cadete en la Academia de la Guardia Onyx, pero su graduación fue cancelada debido al Día de Emergencia. Después de que surgieron los Locust, Hendrick se alistó. en el ejército de la COG para luchar contra ellos.";
+"character.description.tai" = "Tai Kaliso, cabo de las fuerzas armadas de la COG, era un Gear de la isla Irohma en las Islas del Sur. Se unió al Ejército de la Coalición de Gobiernos Ordenados después de que la UIR eliminara su ciudad natal.";
