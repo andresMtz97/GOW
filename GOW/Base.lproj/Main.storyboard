@@ -74,6 +74,7 @@
                         <segue destination="IrW-E8-8ky" kind="show" identifier="gamesSegue" id="W4w-37-EIm"/>
                         <segue destination="hbO-Fq-vAI" kind="show" identifier="weaponsSegue" id="9hm-BN-W7f"/>
                         <segue destination="iTF-bg-U5h" kind="show" identifier="charactersSegue" id="XIa-su-luA"/>
+                        <segue destination="tI9-xU-de1" kind="show" identifier="merchandiseSegue" id="Muc-7r-aIE"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYU-CG-b6B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -712,6 +713,92 @@
             </objects>
             <point key="canvasLocation" x="4062" y="730"/>
         </scene>
+        <!--Merch View Controller-->
+        <scene sceneID="zqL-Bo-Nc6">
+            <objects>
+                <viewController id="tI9-xU-de1" customClass="MerchViewController" customModule="GOW" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ge-FJ-oed">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xBT-pn-spr">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" name="GOWBlack1"/>
+                                <color key="separatorColor" name="GOWBlack2"/>
+                                <color key="sectionIndexColor" name="GOWText"/>
+                                <color key="sectionIndexBackgroundColor" name="GOWBlack1"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="aey-yy-Jmy" customClass="MerchCell" customModule="GOW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aey-yy-Jmy" id="OxZ-L4-uME">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LanacerHoodie" translatesAutoresizingMaskIntoConstraints="NO" id="yBF-9p-VHC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="7J5-9S-OgY"/>
+                                                        <constraint firstAttribute="width" constant="100" id="M2g-t1-8z4"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T shirt lancer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rg1-es-crh">
+                                                    <rect key="frame" x="100" y="11" width="223" height="78"/>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
+                                                    <color key="textColor" name="GOWRed"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$22,99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18F-ao-LFo">
+                                                    <rect key="frame" x="323" y="0.0" width="70" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="70" id="oSD-sK-gjv"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <color key="textColor" name="GOWText"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="18F-ao-LFo" secondAttribute="bottom" id="22z-zR-UhF"/>
+                                                <constraint firstAttribute="trailing" secondItem="18F-ao-LFo" secondAttribute="trailing" id="5GO-Xd-mUB"/>
+                                                <constraint firstItem="Rg1-es-crh" firstAttribute="leading" secondItem="yBF-9p-VHC" secondAttribute="trailing" id="9fB-o1-xt1"/>
+                                                <constraint firstItem="yBF-9p-VHC" firstAttribute="top" secondItem="OxZ-L4-uME" secondAttribute="top" id="DVx-q0-hGJ"/>
+                                                <constraint firstAttribute="bottom" secondItem="yBF-9p-VHC" secondAttribute="bottom" id="K3G-rB-3ss"/>
+                                                <constraint firstItem="yBF-9p-VHC" firstAttribute="leading" secondItem="OxZ-L4-uME" secondAttribute="leading" id="MaL-Bv-HFy"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Rg1-es-crh" secondAttribute="bottom" id="UTX-Wp-cjF"/>
+                                                <constraint firstItem="Rg1-es-crh" firstAttribute="top" secondItem="OxZ-L4-uME" secondAttribute="topMargin" id="aKD-uV-Gbu"/>
+                                                <constraint firstItem="18F-ao-LFo" firstAttribute="top" secondItem="OxZ-L4-uME" secondAttribute="top" id="bZH-R9-nke"/>
+                                                <constraint firstItem="18F-ao-LFo" firstAttribute="leading" secondItem="Rg1-es-crh" secondAttribute="trailing" id="qeg-ww-iUX"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="GOWBlack1"/>
+                                        <connections>
+                                            <outlet property="merchImage" destination="yBF-9p-VHC" id="xG2-2F-zZm"/>
+                                            <outlet property="merchName" destination="Rg1-es-crh" id="wIl-8a-chm"/>
+                                            <outlet property="merchPrice" destination="18F-ao-LFo" id="XNf-cP-PoY"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cKf-YR-Io4"/>
+                        <color key="backgroundColor" name="GOWBlack1"/>
+                        <constraints>
+                            <constraint firstItem="cKf-YR-Io4" firstAttribute="trailing" secondItem="xBT-pn-spr" secondAttribute="trailing" id="3nI-DH-1mq"/>
+                            <constraint firstItem="xBT-pn-spr" firstAttribute="leading" secondItem="cKf-YR-Io4" secondAttribute="leading" id="UTj-mn-hLB"/>
+                            <constraint firstItem="xBT-pn-spr" firstAttribute="top" secondItem="cKf-YR-Io4" secondAttribute="top" id="ZbM-jn-DKB"/>
+                            <constraint firstItem="cKf-YR-Io4" firstAttribute="bottom" secondItem="xBT-pn-spr" secondAttribute="bottom" id="pp5-CB-gPa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mLd-fe-R9y"/>
+                    <connections>
+                        <outlet property="merchTable" destination="xBT-pn-spr" id="j1p-8d-Cpw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqv-ew-tJV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="730"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="WKw-mR-Did">
             <objects>
@@ -737,6 +824,7 @@
     </scenes>
     <resources>
         <image name="AdamFenix" width="650" height="1024"/>
+        <image name="LanacerHoodie" width="1500" height="1500"/>
         <image name="Mark1LancerAssaultRifle" width="1024" height="512"/>
         <image name="circle.grid.cross.fill" catalog="system" width="128" height="128"/>
         <image name="gearshape.fill" catalog="system" width="128" height="123"/>

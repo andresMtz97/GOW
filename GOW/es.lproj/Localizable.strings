@@ -68,3 +68,15 @@
 "character.description.matriarca" = "La Matriarca (Sujeto UL-119-2) fue una Locust hembra creada en el Laboratorio de Monte Kadar y fue la Berserker original. Fue creada por el Dr. Niles Samson y su equipo científico al unir el material genético de Myrrah, un ser humano con inmunidad natural a la Imulsión y un Sire, logrando obtener una Berserker con una fuerte capacidad telepática con la Horda.";
 "character.description.ukkon" = "Ukkon fue el científico jefe de la Horda Locust y miembro del Consejo Locust durante la Guerra Lambent y la Guerra Locust. Originalmente humano cuando era niño, padeció pulmón negro, una afección pulmonar fatal causada por la exposición a la Imulsión, y fue transportado al Centro de Investigación Nueva Esperanza para ser tratado junto con otros niños enfermos. Ukkon fue el primero en formar parte de los experimentos genéticos en Nueva Esperanza. Como el Paciente Cero del Dr. Niles Samson,";
 "character.description.vrol" = "Vrol fue un Kantus miembro del Consejo Locust. Sirvió como Ketor (Sumo Sacerdote) durante la Guerra Civil y la Guerra Locust. Fue el asesor de la Reina Myrrah en los asuntos religiosos relacionados con la Trinidad de los Gusanos. ";
+
+/* Merch*/
+"merch.name.lancerTshirt" = "Camiseta Lancer de Gears of War";
+"merch.price.lancerTshirt" = "$ 417.83";
+"merch.name.lancerHoodie" = "Sudadera con capucha Lancer de Gears of War";
+"merch.price.lancerHoodie" = "$ 668.63";
+"merch.name.weaponsRedTshirt" = "Camiseta con sistema de cobertura de armas de Gears of War";
+"merch.price.weaponsRedTshirt" = "$ 417.83";
+"merch.name.torqueBowHoodie" = "Sudadera con capucha y lazo Torque de Gears of War";
+"merch.price.torqueBowHoodie" = "$ 668.63";
+"merch.name.torqueBowTshirt" = "Camiseta con lazo Torque de Gears of War";
+"merch.price.torqueBowTshirt" = "$ 417.83";

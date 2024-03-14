@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		69E027B22B9E361E0010C863 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E027B12B9E361E0010C863 /* NavigationViewController.swift */; };
 		86CC2FF72BA2830F0068C796 /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CC2FF62BA2830F0068C796 /* LabelExtension.swift */; };
+		86CC2FF92BA36DC60068C796 /* MerchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CC2FF82BA36DC60068C796 /* MerchViewController.swift */; };
+		86CC2FFB2BA36F230068C796 /* Merch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CC2FFA2BA36F230068C796 /* Merch.swift */; };
+		86CC2FFD2BA373620068C796 /* MerchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CC2FFC2BA373620068C796 /* MerchCell.swift */; };
 		8B5159612B9CCD43004F25A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B51595F2B9CCD42004F25A4 /* Localizable.strings */; };
 		8B5159672B9CD415004F25A4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5159662B9CD415004F25A4 /* StringExtension.swift */; };
 		8B5421602B9BD1E60084296C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54215F2B9BD1E60084296C /* AppDelegate.swift */; };
@@ -34,6 +37,9 @@
 /* Begin PBXFileReference section */
 		69E027B12B9E361E0010C863 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		86CC2FF62BA2830F0068C796 /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
+		86CC2FF82BA36DC60068C796 /* MerchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchViewController.swift; sourceTree = "<group>"; };
+		86CC2FFA2BA36F230068C796 /* Merch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merch.swift; sourceTree = "<group>"; };
+		86CC2FFC2BA373620068C796 /* MerchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchCell.swift; sourceTree = "<group>"; };
 		8B5159602B9CCD42004F25A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8B5159622B9CCDCC004F25A4 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
 		8B5159632B9CCDCC004F25A4 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -128,6 +134,7 @@
 				8BA2758B2B9BFDED00FABC9C /* WeaponsController.swift */,
 				69E027B12B9E361E0010C863 /* NavigationViewController.swift */,
 				8BFBBB2F2B9FCE8500FD0AB5 /* CharactersViewController.swift */,
+				86CC2FF82BA36DC60068C796 /* MerchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 				8B67B3292B9BD80A00B005E5 /* MenuOption.swift */,
 				8BA275872B9BFA5100FABC9C /* Weapon.swift */,
 				8BA1B6562B9F812400FBF3EA /* Character.swift */,
+				86CC2FFA2BA36F230068C796 /* Merch.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 				8B67B32C2B9BDBCB00B005E5 /* MenuOptionCell.swift */,
 				8BD09F732B9CB678001C38AD /* WeaponsCell.swift */,
 				8BFBBB312B9FD09B00FD0AB5 /* CharacterCell.swift */,
+				86CC2FFC2BA373620068C796 /* MerchCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,11 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E027B22B9E361E0010C863 /* NavigationViewController.swift in Sources */,
+				86CC2FFB2BA36F230068C796 /* Merch.swift in Sources */,
 				8BA2758C2B9BFDED00FABC9C /* WeaponsController.swift in Sources */,
 				86CC2FF72BA2830F0068C796 /* LabelExtension.swift in Sources */,
 				8BD09F742B9CB678001C38AD /* WeaponsCell.swift in Sources */,
 				8B5421602B9BD1E60084296C /* AppDelegate.swift in Sources */,
 				8B67B32D2B9BDBCB00B005E5 /* MenuOptionCell.swift in Sources */,
+				86CC2FF92BA36DC60068C796 /* MerchViewController.swift in Sources */,
 				8B67B32A2B9BD80A00B005E5 /* MenuOption.swift in Sources */,
 				8BD09F772B9CBCCB001C38AD /* Constants.swift in Sources */,
 				8BA275882B9BFA5100FABC9C /* Weapon.swift in Sources */,
@@ -267,6 +278,7 @@
 				8BFBBB322B9FD09B00FD0AB5 /* CharacterCell.swift in Sources */,
 				8BF17E212B9BE95E002C474D /* GamesViewController.swift in Sources */,
 				8B5159672B9CD415004F25A4 /* StringExtension.swift in Sources */,
+				86CC2FFD2BA373620068C796 /* MerchCell.swift in Sources */,
 				8B5421752B9BD44C0084296C /* HomeViewController.swift in Sources */,
 				8BA1B6552B9F805100FBF3EA /* DataProvider.swift in Sources */,
 			);

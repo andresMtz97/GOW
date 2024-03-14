@@ -251,4 +251,33 @@ class DataProvider {
         ),
 
     ]
+    
+    let merch: [Merch] = [
+        Merch(
+            id: 1, name: "merch.name.lancerTshirt",
+            image: "LancerTshirt",
+            price: "merch.price.lancerTshirt"
+        ),
+        Merch(
+            id: 2, name: "merch.name.lancerHoodie",
+            image: "LancerHoodie",
+            price: "merch.price.lancerHoodie"
+        ),
+        Merch(
+            id: 3, name: "merch.name.weaponsRedTshirt",
+            image: "WeaponsCoverSystemRedTshirt",
+            price: "merch.price.weaponsRedTshirt"
+        ),
+        Merch(
+            id: 4, name: "merch.name.torqueBowHoodie",
+            image: "TorqueBowHoodie",
+            price: "merch.price.torqueBowHoodie"
+        ),
+        Merch(
+            id: 5, name: "merch.name.torqueBowTshirt",
+            image: "TorqueBowTshirt",
+            price: "merch.price.torqueBowTshirt"
+        ),
+        
+    ]
 }

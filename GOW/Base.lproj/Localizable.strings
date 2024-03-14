@@ -68,3 +68,15 @@
 "character.description.matriarca" = "The Matriarch (Subject UL-119-2) was a female Locust created at the Mount Kadar Laboratory and was the original Berserker. She was created by Dr. Niles Samson and his scientific team by uniting the genetic material of Myrrah, a human being with natural immunity to Imulsion and a Sire, managing to obtain a Berserker with a strong telepathic ability with the Horde.";
 "character.description.ukkon" = "Ukkon was the chief scientist of the Locust Horde and a member of the Locust Council during the Lambent War and the Locust War. Originally human as a child, he suffered from black lung, a fatal lung condition caused by exposure to the Imulsion, and was transported to the New Hope Research Center to be treated along with other sick children. Ukkon was the first to take part in the genetic experiments at New Hope. As Dr. Niles Samson's Patient Zero,";
 "character.description.vrol" = "Vrol was a Kantus member of the Locust Council. He served as Ketor (High Priest) during the Civil War and the Locust War. He was Queen Myrrah's advisor on religious matters related to the Trinity of the worms.";
+
+/* MERCH */
+"merch.name.lancerTshirt" = "Gears of War Lancer T-Shirt";
+"merch.price.lancerTshirt" = "$24.99";
+"merch.name.lancerHoodie" = "Gears of War Lancer Hoodie";
+"merch.price.lancerHoodie" = "$39.99";
+"merch.name.weaponsRedTshirt" = "Gears of War Weapon Cover System T-Shirt";
+"merch.price.weaponsRedTshirt" = "$24.99";
+"merch.name.torqueBowHoodie" = "Gears of War Torque Bow Hoodie";
+"merch.price.torqueBowHoodie" = "$39.99";
+"merch.name.torqueBowTshirt" = "Gears of War Torque Bow T-Shirt";
+"merch.price.torqueBowTshirt" = "$24.99";
