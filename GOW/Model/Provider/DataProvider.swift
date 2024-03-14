@@ -97,116 +97,158 @@ class DataProvider {
             image: "Val"
         ),
         Character(
-            id: 2, name: "Anthony Carmine",
+            id: 3, name: "Anthony Carmine",
             description: "character.description.anthony_carmine",
             image: "AnthonyCarmine"
         ),
         Character(
-            id: 2, name: "Anya Stroud",
+            id: 4, name: "Anya Stroud",
             description: "character.description.anya_stroud",
             image: "Anya"
         ),
         Character(
-            id: 2, name: "Augustus Cole",
+            id: 5, name: "Augustus Cole",
             description: "character.description.cole",
             image: "Cole"
         ),
         Character(
-            id: 2, name: "Benjamin Carmine",
+            id: 6, name: "Benjamin Carmine",
             description: "character.description.benjamin_carmine",
             image: "BenjaminCarmine"
         ),
         Character(
-            id: 2, name: "Bernadette Mataki",
+            id: 7, name: "Bernadette Mataki",
             description: "character.description.bernie",
             image: "Bernie"
         ),
         Character(
-            id: 2, name: "Richard Prescott",
+            id: 8, name: "Richard Prescott",
             description: "character.description.prescott",
             image: "Prescott"
         ),
         Character(
-            id: 2, name: "Clayton Carmine",
+            id: 9, name: "Clayton Carmine",
             description: "character.description.clayton_carmine",
             image: "ClaytonCarmine"
         ),
         Character(
-            id: 2, name: "Victor Hoffman",
+            id: 10, name: "Victor Hoffman",
             description: "character.description.hoffman",
             image: "Hoffman"
         ),
         Character(
-            id: 2, name: "Damon Baird",
+            id: 11, name: "Damon Baird",
             description: "character.description.baird",
             image: "Baird"
         ),
         Character(
-            id: 2, name: "Dizzy Wallin",
+            id: 12, name: "Dizzy Wallin",
             description: "character.description.dizzy",
             image: "Dizzy"
         ),
         Character(
-            id: 2, name: "Dominic Santiago",
+            id: 13, name: "Dominic Santiago",
             description: "character.description.dom",
             image: "Dom"
         ),
         Character(
-            id: 2, name: "Ezra Loomis",
+            id: 14, name: "Ezra Loomis",
             description: "character.description.ezra_loomis",
             image: "EzraLoomis"
         ),
         Character(
-            id: 2, name: "Garron Paduk",
+            id: 15, name: "Garron Paduk",
             description: "character.description.paduk",
             image: "Paduk"
         ),
         Character(
-            id: 2, name: "Jace Stratton",
+            id: 16, name: "Jace Stratton",
             description: "character.description.jace",
             image: "Jace"
         ),
         Character(
-            id: 2, name: "JD Fenix",
+            id: 17, name: "JD Fenix",
             description: "character.description.jd_fenix",
             image: "JDFenix"
         ),
         Character(
-            id: 2, name: "Kait Diaz",
+            id: 17, name: "Kait Diaz",
             description: "character.description.kait_diaz",
             image: "KaitDiaz"
         ),
         Character(
-            id: 2, name: "Minh Young Kim",
+            id: 18, name: "Minh Young Kim",
             description: "character.description.minh_young_kim",
             image: "Kim"
         ),
         Character(
-            id: 2, name: "Marcus Fenix",
+            id: 19, name: "Marcus Fenix",
             description: "character.description.marcus_fenix",
             image: "Marcus"
         ),
         Character(
-            id: 2, name: "Michael Barrick",
+            id: 20, name: "Michael Barrick",
             description: "character.description.barrick",
             image: "Barrick"
         ),
         Character(
-            id: 2, name: "Sam Byrne",
+            id: 21, name: "Sam Byrne",
             description: "character.description.sam",
             image: "Sam"
         ),
         Character(
-            id: 2, name: "Sofia Hendrick",
+            id: 22, name: "Sofia Hendrick",
             description: "character.description.sofia_hendrick",
             image: "Sofia"
         ),
         Character(
-            id: 2, name: "Tai Kaliso",
+            id: 23, name: "Tai Kaliso",
             description: "character.description.tai",
             image: "Tai"
         ),
     ]
     
-    let locustCharacters: [Character] = []
+    let locustCharacters: [Character] = [
+        Character(
+            id: 1, name: "Myrrah",
+            description: "character.description.myrrah",
+            image: "Myrrah"
+        ),
+        Character(
+            id: 2, name: "Skorge",
+            description: "character.description.skorge",
+            image: "Skorge"
+        ),
+        Character(
+            id: 3, name: "RAAM",
+            description: "character.description.raam",
+            image: "Raam"
+        ),
+        Character(
+            id: 1, name: "Ukkon",
+            description: "character.description.ukkon",
+            image: "Ukkon"
+        ),
+        Character(
+            id: 1, name: "Karn",
+            description: "character.description.karn",
+            image: "Karn"
+        ),
+        Character(
+            id: 1, name: "Sraak",
+            description: "character.description.sraak",
+            image: "Sraak"
+        ),
+        Character(
+            id: 1, name: "Matriarca",
+            description: "character.description.matriarca",
+            image: "Matriarca"
+        ),
+        Character(
+            id: 1, name: "Vrol",
+            description: "character.description.vrol",
+            image: "Vrol"
+        ),
+
+    ]
 }

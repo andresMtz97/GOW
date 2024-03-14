@@ -11,28 +11,12 @@ class HomeViewController: UITableViewController {
     
     @IBOutlet var menuTableView: UITableView!
     
-    
-    let menuOptions : [MenuOption] = [
-        MenuOption(
-            title:"menu.option.videogames",
-            image:"gamecontroller.fill",
-            segue:"gamesSegue")
-        , MenuOption(
-            title:"menu.option.weapons",
-            image:"shield.fill",
-            segue:"weaponsSegue")
-        , MenuOption(
-            title:"menu.option.characters",
-            image:"person.crop.rectangle.stack.fill",
-            segue:"charactersSegue")
-        ,MenuOption(
-            title:"menu.option.merchandise",
-            image:"shippingbox.fill",
-            segue:"merchandiseSegue")
-    ]
+    let dataProvider = DataProvider()
+    var menuOptions: [MenuOption] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        menuOptions = dataProvider.menuOptions
         menuTableView.backgroundColor = UIColor(named: "GOWBlack1")
     }
 

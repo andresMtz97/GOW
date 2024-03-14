@@ -326,10 +326,9 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vn-LO-Amj">
                                 <rect key="frame" x="0.0" y="103" width="393" height="50"/>
+                                <color key="backgroundColor" name="GOWBlack1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="W2c-dG-6bS"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="ZyX-sN-3wK"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="xBg-Id-Vjo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="30"/>
                                 <color key="textColor" name="GOWRed"/>
@@ -337,25 +336,26 @@
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="QIV-mQ-fOo">
                                 <rect key="frame" x="0.0" y="153" width="393" height="616"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" name="GOWBlack1"/>
+                                <color key="separatorColor" name="GOWBlack2"/>
                                 <color key="sectionIndexColor" name="GOWText"/>
                                 <color key="sectionIndexBackgroundColor" name="GOWBlack1"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="250" id="91e-oE-bm9" customClass="CharacterCell" customModule="GOW" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="250"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="300" id="91e-oE-bm9" customClass="CharacterCell" customModule="GOW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="300"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="91e-oE-bm9" id="rHb-wL-42P">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AdamFenix" translatesAutoresizingMaskIntoConstraints="NO" id="2Om-Ib-yAA">
-                                                    <rect key="frame" x="20" y="51" width="125" height="188"/>
+                                                    <rect key="frame" x="20" y="51" width="125" height="238"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="190" id="cq4-KU-dGv"/>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="cq4-KU-dGv"/>
                                                         <constraint firstAttribute="width" constant="125" id="tYR-hr-Oft"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marcus Fenix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-xW-bvG">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marcus Fenix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-xW-bvG">
                                                     <rect key="frame" x="20" y="11" width="353" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="EGx-8u-iAE"/>
@@ -364,13 +364,14 @@
                                                     <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripciòn" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8q4-yP-Arc">
-                                                    <rect key="frame" x="145" y="51" width="228" height="188"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripciòn" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8q4-yP-Arc">
+                                                    <rect key="frame" x="145" y="51" width="228" height="238"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="GOWBlack1"/>
                                             <constraints>
                                                 <constraint firstItem="8q4-yP-Arc" firstAttribute="leading" secondItem="2Om-Ib-yAA" secondAttribute="trailing" id="3IP-JH-pvc"/>
                                                 <constraint firstItem="1LJ-xW-bvG" firstAttribute="leading" secondItem="rHb-wL-42P" secondAttribute="leadingMargin" id="KhA-cC-ggv"/>
@@ -428,23 +429,26 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="T9o-Sw-kHc">
                                 <rect key="frame" x="0.0" y="153" width="393" height="616"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" name="GOWBlack1"/>
+                                <color key="separatorColor" name="GOWBlack2"/>
+                                <color key="sectionIndexColor" name="GOWText"/>
+                                <color key="sectionIndexBackgroundColor" name="GOWBlack1"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="250" id="ChD-xC-ub7" customClass="CharacterCell" customModule="GOW" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="250"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="300" id="ChD-xC-ub7" customClass="CharacterCell" customModule="GOW" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="300"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ChD-xC-ub7" id="jHd-Yz-WmT">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="250"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AdamFenix" translatesAutoresizingMaskIntoConstraints="NO" id="hyI-4I-sUF">
-                                                    <rect key="frame" x="20" y="51" width="125" height="188"/>
+                                                    <rect key="frame" x="20" y="51" width="125" height="238"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="190" id="2uC-Nl-pu8"/>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="2uC-Nl-pu8"/>
                                                         <constraint firstAttribute="width" constant="125" id="Rl6-nm-dd4"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marcus Fenix" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbW-h9-bf8">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marcus Fenix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbW-h9-bf8">
                                                     <rect key="frame" x="20" y="11" width="353" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="jdD-PQ-kwp"/>
@@ -453,13 +457,14 @@
                                                     <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripciòn" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fan-KH-ff1">
-                                                    <rect key="frame" x="145" y="51" width="228" height="188"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripciòn" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fan-KH-ff1">
+                                                    <rect key="frame" x="145" y="51" width="228" height="238"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="GOWBlack1"/>
                                             <constraints>
                                                 <constraint firstItem="tbW-h9-bf8" firstAttribute="top" secondItem="jHd-Yz-WmT" secondAttribute="topMargin" id="12s-Me-h5b"/>
                                                 <constraint firstItem="fan-KH-ff1" firstAttribute="leading" secondItem="hyI-4I-sUF" secondAttribute="trailing" id="8Xl-jB-wfT"/>
@@ -484,6 +489,7 @@
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locust" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2m-Ko-ZOs">
                                 <rect key="frame" x="0.0" y="103" width="393" height="50"/>
+                                <color key="backgroundColor" name="GOWBlack1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="s02-JU-n1u"/>
                                     <constraint firstAttribute="height" constant="50" id="s5l-dl-k5v"/>
@@ -742,6 +748,9 @@
         </namedColor>
         <namedColor name="GOWBlack1">
             <color red="0.059000000357627869" green="0.030999999493360519" blue="0.039000000804662704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GOWBlack2">
+            <color red="0.25499999523162842" green="0.23899999260902405" blue="0.23899999260902405" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="GOWRed">
             <color red="0.63899999856948853" green="0.050999999046325684" blue="0.054999999701976776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
