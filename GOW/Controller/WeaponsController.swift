@@ -52,9 +52,9 @@ extension WeaponsController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! WeaponsCell
         
-        cell.weaponName.text = NSLocalizedString(arrayWeapons[indexPath.row].name, comment: "")
+        cell.weaponName.text = arrayWeapons[indexPath.row].name.localized
         cell.weaponImage.image = UIImage(named: arrayWeapons[indexPath.row].poster)
-        cell.weaponDescription.text = NSLocalizedString(arrayWeapons[indexPath.row].description, comment: "")
+        cell.weaponDescription.text = arrayWeapons[indexPath.row].description.localized
         return cell
     }
     
