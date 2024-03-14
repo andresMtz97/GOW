@@ -15,6 +15,11 @@ class MenuOptionCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        optionLabel.dynamicSize(fontName: "CGF Locust Resistance")
+//        let myFont = UIFont(name: "CGF Locust Resistance", size: 17)
+//        let bodyMetrics = UIFontMetrics(forTextStyle: .body)
+//        optionLabel.font = bodyMetrics.scaledFont(for: myFont!)
+//        optionLabel.adjustsFontForContentSizeCategory = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -491,7 +491,6 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="50"/>
                                 <color key="backgroundColor" name="GOWBlack1"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="s02-JU-n1u"/>
                                     <constraint firstAttribute="height" constant="50" id="s5l-dl-k5v"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="30"/>

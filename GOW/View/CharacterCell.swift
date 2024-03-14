@@ -16,6 +16,7 @@ class CharacterCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        characterName.dynamicSize(fontName: "CGF Locust Resistance")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

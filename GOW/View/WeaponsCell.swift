@@ -8,7 +8,6 @@
 import UIKit
 
 class WeaponsCell: UITableViewCell {
-    
 
     @IBOutlet weak var weaponName: UILabel!
     @IBOutlet weak var weaponImage: UIImageView!
@@ -17,6 +16,7 @@ class WeaponsCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        weaponName.dynamicSize(fontName: "CGF Locust Resistance")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
